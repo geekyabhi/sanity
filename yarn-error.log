@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  D:\node-course\Sanity\node_modules\.bin;D:\node-course\node_modules\.bin;D:\node_modules\.bin;C:\Program Files\nodejs;C:\MinGW\bin;C:\Windows\System32;C:\Program Files\Java\jdk-11.0.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\dell\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\MinGW\bin;C:\Users\dell\AppData\Roaming\npm;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  12.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/date-fns/-/date-fns-2.16.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\dell\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn:133816:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:481:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "firsttime",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Abhinav Thakur <thakurabhinav17122001@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.3.2",
+      "@sanity/components": "^2.2.6",
+      "@sanity/core": "^2.2.6",
+      "@sanity/default-layout": "^2.3.2",
+      "@sanity/default-login": "^2.2.6",
+      "@sanity/desk-tool": "^2.3.2",
+      "@sanity/vision": "^2.2.6",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
